@@ -1,0 +1,28 @@
+### 解题思路
+
+注意终止条件判断，
+
+### 代码
+
+* python3
+
+```python
+class Solution:
+    def mySqrt(self, x: int) -> int:
+        
+        if x==0: return 0
+        if x<=3: return 1
+        if x==4: return 2
+        left,right = 1,x//2
+        
+        while left<=right:
+            mid = (left+right)//2
+            if mid**2<=x and (mid+1)**2>x:
+                return mid
+            elif mid**2 < x:
+                left = mid +1
+            else:
+                right= mid
+        return left
+```
+

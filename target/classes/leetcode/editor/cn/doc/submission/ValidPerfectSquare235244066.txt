@@ -1,0 +1,12 @@
+/**
+ * @param {number} num
+ * @return {boolean}
+ */
+var isPerfectSquare = function(num) {
+      if(num%(Math.sqrt(num))==0){
+          return true
+      }
+      return false
+};
+//runtime:68 ms
+//memory:37.6 MB
