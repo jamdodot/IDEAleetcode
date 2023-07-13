@@ -4,7 +4,6 @@ import com.sun.javafx.scene.SceneUtils;
 import com.sun.org.apache.xerces.internal.util.SynchronizedSymbolTable;
 import jdk.nashorn.internal.runtime.regexp.joni.Regex;
 
-import javax.jnlp.IntegrationService;
 import java.io.InputStream;
 import java.lang.annotation.Target;
 import java.lang.reflect.Array;

@@ -42,10 +42,6 @@ package leetcode.editor.cn;
 //
 // Related Topics 数组 双指针 排序 👍 812 👎 0
 
-import leetcode.editor.cn.base.adapter.Targetable;
-
-import java.util.Arrays;
-
 public class SquaresOfASortedArray{
     public static void main(String[] args) {
         Solution solution = new SquaresOfASortedArray().new Solution();

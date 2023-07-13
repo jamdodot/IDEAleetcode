@@ -4,19 +4,101 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0a943320-0e5b-48bc-b87c-f95d7c98fde2" name="Default Changelist" comment="反转链表">
-      <change afterPath="$PROJECT_DIR$/src/leetcode/editor/cn/FourSumIi.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/editor/cn/HappyNumber.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/editor/cn/IntersectionOfTwoArrays.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/editor/cn/ValidAnagram.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/editor/cn/doc/content/FourSumIi.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/editor/cn/doc/content/HappyNumber.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/editor/cn/doc/content/IntersectionOfTwoArrays.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/editor/cn/doc/content/MaximumAlternatingSubsequenceSum.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/editor/cn/doc/content/ValidAnagram.md" afterDir="false" />
+    <list default="true" id="0a943320-0e5b-48bc-b87c-f95d7c98fde2" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/com/wut/learn/CodeExam/TestCode/build.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/wut/learn/base/threadpool/MyRunnable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/wut/learn/base/threadpool/ThreadPoolTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/editor/cn/FourSum.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/leetcode/editor.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/leetcode/editor.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/leetcode/statistics.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/leetcode/statistics.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/editor/cn/CodeExam/HuaWei/HuaWei2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/wut/learn/CodeExam/HuaWei/HuaWei2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/editor/cn/CodeExam/HuaWei/HuaWei3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/wut/learn/CodeExam/HuaWei/HuaWei3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/editor/cn/CodeExam/HuaWei/HuaWeiTest1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/wut/learn/CodeExam/HuaWei/HuaWeiTest1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/editor/cn/CodeExam/HuaWei/HuaWeiTest2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/wut/learn/CodeExam/HuaWei/HuaWeiTest2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/editor/cn/CodeExam/HuaWei/Huawei1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/wut/learn/CodeExam/HuaWei/Huawei1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/editor/cn/CodeExam/InputAndOutput.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/wut/learn/CodeExam/InputAndOutput.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/editor/cn/CodeExam/JingSanYun/JingSanYunTest1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/wut/learn/CodeExam/JingSanYun/JingSanYunTest1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/editor/cn/CodeExam/JingSanYun/JingSanYunTest2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/wut/learn/CodeExam/JingSanYun/JingSanYunTest2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/editor/cn/CodeExam/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/wut/learn/CodeExam/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/editor/cn/CodeExam/MeiTuan/MeiTuanTest1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/wut/learn/CodeExam/MeiTuan/MeiTuanTest1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/editor/cn/CodeExam/MeiTuan/MeiTuanTest2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/wut/learn/CodeExam/MeiTuan/MeiTuanTest2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/editor/cn/CodeExam/MeiTuan/MeiTuanTest3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/wut/learn/CodeExam/MeiTuan/MeiTuanTest3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/editor/cn/CodeExam/MeiTuan/MeiTuanTest5.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/wut/learn/CodeExam/MeiTuan/MeiTuanTest5.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/editor/cn/CodeExam/MultiLine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/wut/learn/CodeExam/MultiLine.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/editor/cn/CodeExam/QiAnXing/QiAnXIngTest2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/wut/learn/CodeExam/QiAnXing/QiAnXIngTest2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/editor/cn/CodeExam/QiAnXing/QiAnXingTest1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/wut/learn/CodeExam/QiAnXing/QiAnXingTest1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/editor/cn/CodeExam/SimpleTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/wut/learn/CodeExam/SimpleTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/editor/cn/CodeExam/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/wut/learn/CodeExam/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/editor/cn/CodeExam/TestCode/LocalTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/wut/learn/CodeExam/TestCode/LocalTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/editor/cn/CodeExam/TestCode/build.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/editor/cn/CodeExam/XiaoMitest1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/wut/learn/CodeExam/XiaoMitest1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/editor/cn/SplitArrayIntoConsecutiveSubsequences.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/editor/cn/SplitArrayIntoConsecutiveSubsequences.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/editor/cn/SquaresOfASortedArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/editor/cn/SquaresOfASortedArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/editor/cn/base/ArraysClass/BinarySearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/wut/learn/base/ArraysClass/BinarySearch.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/editor/cn/base/MinEmployee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/wut/learn/base/MinEmployee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/editor/cn/base/Singleton.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/wut/learn/base/Singleton.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/editor/cn/base/adapter/Adapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/wut/learn/base/adapter/Adapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/editor/cn/base/adapter/Source.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/wut/learn/base/adapter/Source.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/editor/cn/base/adapter/Targetable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/wut/learn/base/adapter/Targetable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/editor/cn/base/factory/MailSender.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/wut/learn/base/factory/MailSender.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/editor/cn/base/factory/SendFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/wut/learn/base/factory/SendFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/editor/cn/base/factory/Sender.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/wut/learn/base/factory/Sender.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/editor/cn/base/factory/SmsSender.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/wut/learn/base/factory/SmsSender.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/editor/cn/base/proxy/Proxy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/wut/learn/base/proxy/Proxy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/editor/cn/base/proxy/Source.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/wut/learn/base/proxy/Source.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/editor/cn/base/proxy/Sourceable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/wut/learn/base/proxy/Sourceable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/editor/cn/base/sort/GuiBingSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/wut/learn/base/sort/GuiBingSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/editor/cn/base/sort/HeapSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/wut/learn/base/sort/HeapSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/editor/cn/base/sort/QuickSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/wut/learn/base/sort/QuickSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/editor/cn/weekTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/editor/cn/weekTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/CodeExam/HuaWei/HuaWei2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/CodeExam/HuaWei/HuaWei3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/CodeExam/HuaWei/HuaWeiTest1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/CodeExam/HuaWei/HuaWeiTest2$TreeNode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/CodeExam/HuaWei/HuaWeiTest2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/CodeExam/HuaWei/Huawei1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/CodeExam/InputAndOutput.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/CodeExam/JingSanYun/JingSanYunTest1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/CodeExam/JingSanYun/JingSanYunTest2$TreeNode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/CodeExam/JingSanYun/JingSanYunTest2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/CodeExam/Main$TreeNode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/CodeExam/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/CodeExam/MeiTuan/MeiTuanTest1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/CodeExam/MeiTuan/MeiTuanTest2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/CodeExam/MeiTuan/MeiTuanTest3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/CodeExam/MeiTuan/MeiTuanTest5.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/CodeExam/MultiLine.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/CodeExam/QiAnXing/QiAnXIngTest2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/CodeExam/QiAnXing/QiAnXingTest1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/CodeExam/SimpleTest$FastPrinter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/CodeExam/SimpleTest$Printer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/CodeExam/SimpleTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/CodeExam/Test.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/CodeExam/TestCode/LocalTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/CodeExam/TestCode/build.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/CodeExam/XiaoMitest1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/SquaresOfASortedArray$Solution.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/SquaresOfASortedArray$Solution.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/SquaresOfASortedArray.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/SquaresOfASortedArray.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/base/ArraysClass/BinarySearch.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/base/MinEmployee.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/base/Singleton$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/base/Singleton.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/base/adapter/Adapter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/base/adapter/Source.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/base/adapter/Targetable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/base/factory/MailSender.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/base/factory/SendFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/base/factory/Sender.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/base/factory/SmsSender.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/base/proxy/Proxy.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/base/proxy/Source.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/base/proxy/Sourceable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/base/sort/GuiBingSort.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/base/sort/HeapSort.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/base/sort/QuickSort.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/weekTest$FoodRatings.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/weekTest$FoodRatings.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/weekTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/weekTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,20 +148,7 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.XiaoMitest1">
-    <configuration name="FruitIntoBaskets (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.editor.cn.FruitIntoBaskets" />
-      <module name="IDEAleetcode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="leetcode.editor.cn.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.ThreadPoolTest">
     <configuration name="FruitIntoBaskets (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="leetcode.editor.cn.FruitIntoBaskets" />
       <module name="IDEAleetcode" />
@@ -119,6 +188,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ThreadPoolTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.wut.learn.base.threadpool.ThreadPoolTest" />
+      <module name="IDEAleetcode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.wut.learn.base.threadpool.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="UniqueEmailAddresses" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
@@ -136,11 +218,11 @@
       </method>
     </configuration>
     <configuration name="XiaoMitest1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.editor.cn.CodeExam.XiaoMitest1" />
+      <option name="MAIN_CLASS_NAME" value="com.wut.learn.CodeExam.XiaoMitest1" />
       <module name="IDEAleetcode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="leetcode.editor.cn.CodeExam.*" />
+          <option name="PATTERN" value="com.wut.learn.CodeExam.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -150,19 +232,19 @@
     </configuration>
     <list>
       <item itemvalue="Application.UniqueEmailAddresses" />
+      <item itemvalue="Application.ThreadPoolTest" />
       <item itemvalue="Application.XiaoMitest1" />
       <item itemvalue="Application.FruitIntoBaskets" />
-      <item itemvalue="Application.FruitIntoBaskets (2)" />
       <item itemvalue="Application.FruitIntoBaskets (3)" />
       <item itemvalue="Application.FruitIntoBaskets (4)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ThreadPoolTest" />
         <item itemvalue="Application.XiaoMitest1" />
         <item itemvalue="Application.FruitIntoBaskets (4)" />
         <item itemvalue="Application.FruitIntoBaskets (3)" />
         <item itemvalue="Application.FruitIntoBaskets" />
-        <item itemvalue="Application.FruitIntoBaskets (2)" />
       </list>
     </recent_temporary>
   </component>
@@ -427,6 +509,9 @@
       <workItem from="1688469654602" duration="117000" />
       <workItem from="1689073531835" duration="3302000" />
       <workItem from="1689125553498" duration="27000" />
+      <workItem from="1689161741772" duration="1849000" />
+      <workItem from="1689210713743" duration="87000" />
+      <workItem from="1689217696850" duration="1250000" />
     </task>
     <task id="LOCAL-00001" summary="反转链表">
       <option name="closed" value="true" />
@@ -436,7 +521,23 @@
       <option name="project" value="LOCAL" />
       <updated>1688462383368</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="日常提交">
+      <option name="closed" value="true" />
+      <created>1689161758107</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1689161758107</updated>
+    </task>
+    <task id="LOCAL-00003" summary="三数相加 重要双指针">
+      <option name="closed" value="true" />
+      <created>1689162951777</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1689162951777</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -455,7 +556,9 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="反转链表" />
-    <option name="LAST_COMMIT_MESSAGE" value="反转链表" />
+    <MESSAGE value="日常提交" />
+    <MESSAGE value="三数相加 重要双指针" />
+    <option name="LAST_COMMIT_MESSAGE" value="三数相加 重要双指针" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -876,22 +979,22 @@
           <option name="timeStamp" value="143" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/leetcode/editor/cn/CodeExam/Main.java</url>
+          <url>file://$PROJECT_DIR$/src/com/wut/learn/CodeExam/Main.java</url>
           <line>24</line>
           <option name="timeStamp" value="144" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/leetcode/editor/cn/CodeExam/Main.java</url>
+          <url>file://$PROJECT_DIR$/src/com/wut/learn/CodeExam/Main.java</url>
           <line>26</line>
           <option name="timeStamp" value="146" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/leetcode/editor/cn/CodeExam/Main.java</url>
+          <url>file://$PROJECT_DIR$/src/com/wut/learn/CodeExam/Main.java</url>
           <line>20</line>
           <option name="timeStamp" value="147" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/leetcode/editor/cn/CodeExam/Main.java</url>
+          <url>file://$PROJECT_DIR$/src/com/wut/learn/CodeExam/Main.java</url>
           <line>16</line>
           <option name="timeStamp" value="148" />
         </line-breakpoint>
@@ -936,92 +1039,92 @@
           <option name="timeStamp" value="171" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/leetcode/editor/cn/CodeExam/HuaWei/Huawei1.java</url>
+          <url>file://$PROJECT_DIR$/src/com/wut/learn/CodeExam/HuaWei/Huawei1.java</url>
           <line>18</line>
           <option name="timeStamp" value="177" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/leetcode/editor/cn/CodeExam/HuaWei/HuaWei2.java</url>
+          <url>file://$PROJECT_DIR$/src/com/wut/learn/CodeExam/HuaWei/HuaWei2.java</url>
           <line>23</line>
           <option name="timeStamp" value="180" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/leetcode/editor/cn/CodeExam/HuaWei/HuaWei2.java</url>
+          <url>file://$PROJECT_DIR$/src/com/wut/learn/CodeExam/HuaWei/HuaWei2.java</url>
           <line>30</line>
           <option name="timeStamp" value="181" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/leetcode/editor/cn/CodeExam/HuaWei/HuaWei2.java</url>
+          <url>file://$PROJECT_DIR$/src/com/wut/learn/CodeExam/HuaWei/HuaWei2.java</url>
           <line>32</line>
           <option name="timeStamp" value="182" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/leetcode/editor/cn/CodeExam/HuaWei/HuaWeiTest1.java</url>
+          <url>file://$PROJECT_DIR$/src/com/wut/learn/CodeExam/HuaWei/HuaWeiTest1.java</url>
           <line>24</line>
           <option name="timeStamp" value="183" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/leetcode/editor/cn/CodeExam/HuaWei/HuaWeiTest1.java</url>
+          <url>file://$PROJECT_DIR$/src/com/wut/learn/CodeExam/HuaWei/HuaWeiTest1.java</url>
           <line>66</line>
           <option name="timeStamp" value="185" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/leetcode/editor/cn/CodeExam/HuaWei/HuaWeiTest1.java</url>
+          <url>file://$PROJECT_DIR$/src/com/wut/learn/CodeExam/HuaWei/HuaWeiTest1.java</url>
           <line>27</line>
           <option name="timeStamp" value="186" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/leetcode/editor/cn/CodeExam/HuaWei/HuaWeiTest1.java</url>
+          <url>file://$PROJECT_DIR$/src/com/wut/learn/CodeExam/HuaWei/HuaWeiTest1.java</url>
           <line>64</line>
           <option name="timeStamp" value="187" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/leetcode/editor/cn/CodeExam/HuaWei/HuaWeiTest2.java</url>
+          <url>file://$PROJECT_DIR$/src/com/wut/learn/CodeExam/HuaWei/HuaWeiTest2.java</url>
           <line>65</line>
           <option name="timeStamp" value="188" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/leetcode/editor/cn/CodeExam/HuaWei/HuaWeiTest2.java</url>
+          <url>file://$PROJECT_DIR$/src/com/wut/learn/CodeExam/HuaWei/HuaWeiTest2.java</url>
           <line>73</line>
           <option name="timeStamp" value="189" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/leetcode/editor/cn/CodeExam/HuaWei/HuaWeiTest2.java</url>
+          <url>file://$PROJECT_DIR$/src/com/wut/learn/CodeExam/HuaWei/HuaWeiTest2.java</url>
           <line>71</line>
           <option name="timeStamp" value="190" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/leetcode/editor/cn/CodeExam/HuaWei/HuaWeiTest2.java</url>
+          <url>file://$PROJECT_DIR$/src/com/wut/learn/CodeExam/HuaWei/HuaWeiTest2.java</url>
           <line>52</line>
           <option name="timeStamp" value="196" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/leetcode/editor/cn/CodeExam/HuaWei/HuaWeiTest2.java</url>
+          <url>file://$PROJECT_DIR$/src/com/wut/learn/CodeExam/HuaWei/HuaWeiTest2.java</url>
           <line>51</line>
           <option name="timeStamp" value="200" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/leetcode/editor/cn/CodeExam/HuaWei/HuaWeiTest2.java</url>
+          <url>file://$PROJECT_DIR$/src/com/wut/learn/CodeExam/HuaWei/HuaWeiTest2.java</url>
           <line>62</line>
           <option name="timeStamp" value="201" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/leetcode/editor/cn/CodeExam/HuaWei/HuaWeiTest2.java</url>
+          <url>file://$PROJECT_DIR$/src/com/wut/learn/CodeExam/HuaWei/HuaWeiTest2.java</url>
           <line>74</line>
           <option name="timeStamp" value="202" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/leetcode/editor/cn/CodeExam/MeiTuan/MeiTuanTest2.java</url>
+          <url>file://$PROJECT_DIR$/src/com/wut/learn/CodeExam/MeiTuan/MeiTuanTest2.java</url>
           <line>33</line>
           <option name="timeStamp" value="206" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/leetcode/editor/cn/CodeExam/MeiTuan/MeiTuanTest2.java</url>
+          <url>file://$PROJECT_DIR$/src/com/wut/learn/CodeExam/MeiTuan/MeiTuanTest2.java</url>
           <line>37</line>
           <option name="timeStamp" value="207" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/leetcode/editor/cn/CodeExam/MeiTuan/MeiTuanTest2.java</url>
+          <url>file://$PROJECT_DIR$/src/com/wut/learn/CodeExam/MeiTuan/MeiTuanTest2.java</url>
           <line>49</line>
           <option name="timeStamp" value="208" />
         </line-breakpoint>
@@ -1091,37 +1194,37 @@
           <option name="timeStamp" value="221" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/leetcode/editor/cn/base/MinEmployee.java</url>
+          <url>file://$PROJECT_DIR$/src/com/wut/learn/base/MinEmployee.java</url>
           <line>20</line>
           <option name="timeStamp" value="223" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/leetcode/editor/cn/base/MinEmployee.java</url>
+          <url>file://$PROJECT_DIR$/src/com/wut/learn/base/MinEmployee.java</url>
           <line>28</line>
           <option name="timeStamp" value="224" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/leetcode/editor/cn/CodeExam/SimpleTest.java</url>
+          <url>file://$PROJECT_DIR$/src/com/wut/learn/CodeExam/SimpleTest.java</url>
           <line>20</line>
           <option name="timeStamp" value="225" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/leetcode/editor/cn/CodeExam/SimpleTest.java</url>
+          <url>file://$PROJECT_DIR$/src/com/wut/learn/CodeExam/SimpleTest.java</url>
           <line>21</line>
           <option name="timeStamp" value="226" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/leetcode/editor/cn/CodeExam/SimpleTest.java</url>
+          <url>file://$PROJECT_DIR$/src/com/wut/learn/CodeExam/SimpleTest.java</url>
           <line>19</line>
           <option name="timeStamp" value="227" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/leetcode/editor/cn/CodeExam/SimpleTest.java</url>
+          <url>file://$PROJECT_DIR$/src/com/wut/learn/CodeExam/SimpleTest.java</url>
           <line>26</line>
           <option name="timeStamp" value="228" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/leetcode/editor/cn/CodeExam/SimpleTest.java</url>
+          <url>file://$PROJECT_DIR$/src/com/wut/learn/CodeExam/SimpleTest.java</url>
           <line>37</line>
           <option name="timeStamp" value="230" />
         </line-breakpoint>
@@ -1141,42 +1244,42 @@
           <option name="timeStamp" value="234" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/leetcode/editor/cn/CodeExam/JingSanYun/JingSanYunTest1.java</url>
+          <url>file://$PROJECT_DIR$/src/com/wut/learn/CodeExam/JingSanYun/JingSanYunTest1.java</url>
           <line>32</line>
           <option name="timeStamp" value="235" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/leetcode/editor/cn/CodeExam/JingSanYun/JingSanYunTest1.java</url>
+          <url>file://$PROJECT_DIR$/src/com/wut/learn/CodeExam/JingSanYun/JingSanYunTest1.java</url>
           <line>34</line>
           <option name="timeStamp" value="236" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/leetcode/editor/cn/CodeExam/JingSanYun/JingSanYunTest1.java</url>
+          <url>file://$PROJECT_DIR$/src/com/wut/learn/CodeExam/JingSanYun/JingSanYunTest1.java</url>
           <line>27</line>
           <option name="timeStamp" value="237" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/leetcode/editor/cn/CodeExam/JingSanYun/JingSanYunTest2.java</url>
+          <url>file://$PROJECT_DIR$/src/com/wut/learn/CodeExam/JingSanYun/JingSanYunTest2.java</url>
           <line>48</line>
           <option name="timeStamp" value="250" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/leetcode/editor/cn/CodeExam/JingSanYun/JingSanYunTest2.java</url>
+          <url>file://$PROJECT_DIR$/src/com/wut/learn/CodeExam/JingSanYun/JingSanYunTest2.java</url>
           <line>47</line>
           <option name="timeStamp" value="251" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/leetcode/editor/cn/CodeExam/TestCode/LocalTest.java</url>
+          <url>file://$PROJECT_DIR$/src/com/wut/learn/CodeExam/TestCode/LocalTest.java</url>
           <line>32</line>
           <option name="timeStamp" value="252" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/leetcode/editor/cn/CodeExam/TestCode/LocalTest.java</url>
+          <url>file://$PROJECT_DIR$/src/com/wut/learn/CodeExam/TestCode/LocalTest.java</url>
           <line>28</line>
           <option name="timeStamp" value="253" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/leetcode/editor/cn/CodeExam/TestCode/LocalTest.java</url>
+          <url>file://$PROJECT_DIR$/src/com/wut/learn/CodeExam/TestCode/LocalTest.java</url>
           <line>25</line>
           <option name="timeStamp" value="254" />
         </line-breakpoint>
@@ -1227,7 +1330,7 @@
           <option name="timeStamp" value="91" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/leetcode/editor/cn/CodeExam/HuaWei/HuaWeiTest2.java</url>
+          <url>file://$PROJECT_DIR$/src/com/wut/learn/CodeExam/HuaWei/HuaWeiTest2.java</url>
           <line>61</line>
           <properties class="leetcode.editor.cn.CodeExam.HuaWei.HuaWeiTest2">
             <option name="EMULATED" value="true" />
@@ -1236,7 +1339,7 @@
           <option name="timeStamp" value="191" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/leetcode/editor/cn/CodeExam/HuaWei/HuaWeiTest2.java</url>
+          <url>file://$PROJECT_DIR$/src/com/wut/learn/CodeExam/HuaWei/HuaWeiTest2.java</url>
           <line>70</line>
           <properties class="leetcode.editor.cn.CodeExam.HuaWei.HuaWeiTest2">
             <option name="EMULATED" value="true" />
@@ -1245,7 +1348,7 @@
           <option name="timeStamp" value="203" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/leetcode/editor/cn/CodeExam/SimpleTest.java</url>
+          <url>file://$PROJECT_DIR$/src/com/wut/learn/CodeExam/SimpleTest.java</url>
           <line>38</line>
           <properties class="leetcode.editor.cn.CodeExam.SimpleTest">
             <option name="EMULATED" value="true" />
