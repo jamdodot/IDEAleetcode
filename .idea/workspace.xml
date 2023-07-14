@@ -4,17 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0a943320-0e5b-48bc-b87c-f95d7c98fde2" name="Default Changelist" comment="更新readme">
-      <change afterPath="$PROJECT_DIR$/src/leetcode/editor/cn/ReverseString.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/editor/cn/ReverseStringIi.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/editor/cn/doc/content/FourSum.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/editor/cn/doc/content/ReverseString.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/editor/cn/doc/content/ReverseStringIi.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/editor/cn/doc/submission/ReverseString168565156.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/leetcode/editor.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/leetcode/editor.xml" afterDir="false" />
+    <list default="true" id="0a943320-0e5b-48bc-b87c-f95d7c98fde2" name="Default Changelist" comment="四数相加  反转字符串">
       <change beforePath="$PROJECT_DIR$/.idea/leetcode/statistics.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/leetcode/statistics.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/editor/cn/FourSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/editor/cn/FourSum.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,6 +46,7 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
     &quot;last_opened_file_path&quot;: &quot;D:/IDEAWorkspace/leadnews-microservice-foundation&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
@@ -61,7 +54,7 @@
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
     &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;leetcode.id&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.ide.settings.new.ui&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
@@ -430,7 +423,10 @@
       <workItem from="1689210713743" duration="87000" />
       <workItem from="1689217696850" duration="2932000" />
       <workItem from="1689234409491" duration="5306000" />
-      <workItem from="1689297388135" duration="811000" />
+      <workItem from="1689297388135" duration="987000" />
+      <workItem from="1689330218532" duration="27000" />
+      <workItem from="1689330255234" duration="77000" />
+      <workItem from="1689330340040" duration="716000" />
     </task>
     <task id="LOCAL-00001" summary="反转链表">
       <option name="closed" value="true" />
@@ -472,7 +468,15 @@
       <option name="project" value="LOCAL" />
       <updated>1689219270640</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="四数相加  反转字符串">
+      <option name="closed" value="true" />
+      <created>1689298226009</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1689298226009</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -495,7 +499,8 @@
     <MESSAGE value="三数相加 重要双指针" />
     <MESSAGE value="线程池测试  包路径修改" />
     <MESSAGE value="更新readme" />
-    <option name="LAST_COMMIT_MESSAGE" value="更新readme" />
+    <MESSAGE value="四数相加  反转字符串" />
+    <option name="LAST_COMMIT_MESSAGE" value="四数相加  反转字符串" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
