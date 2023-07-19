@@ -4,9 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0a943320-0e5b-48bc-b87c-f95d7c98fde2" name="Default Changelist" comment="四数相加  反转字符串">
+    <list default="true" id="0a943320-0e5b-48bc-b87c-f95d7c98fde2" name="Default Changelist" comment="分割字符串 可能多个空格">
+      <change afterPath="$PROJECT_DIR$/src/leetcode/editor/cn/FindTheIndexOfTheFirstOccurrenceInAString.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/editor/cn/RepeatedSubstringPattern.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/editor/cn/doc/content/FindTheIndexOfTheFirstOccurrenceInAString.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/editor/cn/doc/content/RepeatedSubstringPattern.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/leetcode/editor.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/leetcode/editor.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/leetcode/statistics.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/leetcode/statistics.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/editor/cn/ZuoXuanZhuanZiFuChuanLcof.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/editor/cn/ZuoXuanZhuanZiFuChuanLcof.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -426,7 +432,9 @@
       <workItem from="1689297388135" duration="987000" />
       <workItem from="1689330218532" duration="27000" />
       <workItem from="1689330255234" duration="77000" />
-      <workItem from="1689330340040" duration="716000" />
+      <workItem from="1689330340040" duration="891000" />
+      <workItem from="1689557306180" duration="66000" />
+      <workItem from="1689771228908" duration="1873000" />
     </task>
     <task id="LOCAL-00001" summary="反转链表">
       <option name="closed" value="true" />
@@ -476,7 +484,15 @@
       <option name="project" value="LOCAL" />
       <updated>1689298226009</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="分割字符串 可能多个空格">
+      <option name="closed" value="true" />
+      <created>1689331223492</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1689331223492</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -500,7 +516,8 @@
     <MESSAGE value="线程池测试  包路径修改" />
     <MESSAGE value="更新readme" />
     <MESSAGE value="四数相加  反转字符串" />
-    <option name="LAST_COMMIT_MESSAGE" value="四数相加  反转字符串" />
+    <MESSAGE value="分割字符串 可能多个空格" />
+    <option name="LAST_COMMIT_MESSAGE" value="分割字符串 可能多个空格" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
