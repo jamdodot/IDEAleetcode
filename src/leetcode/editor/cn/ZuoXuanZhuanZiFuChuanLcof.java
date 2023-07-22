@@ -36,11 +36,17 @@ public class ZuoXuanZhuanZiFuChuanLcof{
 //leetcode submit region begin(Prohibit modification and deletion)
 class Solution {
     public String reverseLeftWords(String s, int n) {
-        if(s.equals("")||s.equals(" ")||s.length()==1) return  s;
-        StringBuilder sb=new StringBuilder();
-        sb.append(s.substring(n,s.length()));
-        sb.append(s.substring(0,n));
-        return sb.toString();
+//        if(s.equals("")||s.equals(" ")||s.length()==1) return  s;
+//        StringBuilder sb=new StringBuilder();
+//        sb.append(s.substring(n,s.length()));
+//        sb.append(s.substring(0,n));
+//        return sb.toString();
+
+        if(s.equals("")||s.equals(" ")||s.length()==1) return s;
+        StringBuilder stringBuilder = new StringBuilder();
+        stringBuilder.append(s.substring(n,s.length()));
+        stringBuilder.append(s.substring(0,n));
+        return stringBuilder.toString();
 
     }
 }

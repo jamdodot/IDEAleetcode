@@ -1,2 +1,0 @@
-
-table class_level
