@@ -21,7 +21,7 @@ public class Test2 {
      * @param args
      */
     public static void main(String[] args) {
-
+        System.out.println(getStr(5, 2));
 
     }
     public static String getStr(int n,int k){
