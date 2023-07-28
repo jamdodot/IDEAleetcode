@@ -4,15 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0a943320-0e5b-48bc-b87c-f95d7c98fde2" name="Default Changelist" comment="分割字符串 可能多个空格">
-      <change afterPath="$PROJECT_DIR$/src/leetcode/editor/cn/FindTheIndexOfTheFirstOccurrenceInAString.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/editor/cn/RepeatedSubstringPattern.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/editor/cn/doc/content/FindTheIndexOfTheFirstOccurrenceInAString.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/editor/cn/doc/content/RepeatedSubstringPattern.md" afterDir="false" />
+    <list default="true" id="0a943320-0e5b-48bc-b87c-f95d7c98fde2" name="Default Changelist" comment="Deque实现 层序遍历和打印">
+      <change afterPath="$PROJECT_DIR$/src/leetcode/editor/cn/LongestPalindrome.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/editor/cn/doc/content/BinaryTreeLevelOrderTraversal.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/editor/cn/doc/content/DetectSquares.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/editor/cn/doc/content/LongestPalindrome.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/leetcode/editor.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/leetcode/editor.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/leetcode/statistics.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/leetcode/statistics.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/editor/cn/ZuoXuanZhuanZiFuChuanLcof.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/editor/cn/ZuoXuanZhuanZiFuChuanLcof.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/editor/cn/ShunShiZhenDaYinJuZhenLcof.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/editor/cn/ShunShiZhenDaYinJuZhenLcof.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/CodeExam/kedaxunfei/Test1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/CodeExam/kedaxunfei/Test1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/ShunShiZhenDaYinJuZhenLcof$Solution.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/ShunShiZhenDaYinJuZhenLcof$Solution.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/ZuoXuanZhuanZiFuChuanLcof$Solution.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/ZuoXuanZhuanZiFuChuanLcof$Solution.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,34 +67,34 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.ReverseStringIi (1)">
+  <component name="RunManager" selected="Application.LongestPalindrome (1)">
+    <configuration name="LongestPalindrome (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.editor.cn.LongestPalindrome" />
+      <module name="IDEAleetcode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="leetcode.editor.cn.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LongestPalindrome" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.editor.cn.LongestPalindrome" />
+      <module name="IDEAleetcode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="leetcode.editor.cn.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ReverseStringIi (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.editor.cn.ReverseStringIi" />
-      <module name="IDEAleetcode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="leetcode.editor.cn.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ReverseStringIi (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.editor.cn.ReverseStringIi" />
-      <module name="IDEAleetcode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="leetcode.editor.cn.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ReverseStringIi (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="leetcode.editor.cn.ReverseStringIi" />
       <module name="IDEAleetcode" />
       <extension name="coverage">
@@ -148,19 +151,19 @@
     </configuration>
     <list>
       <item itemvalue="Application.UniqueEmailAddresses" />
-      <item itemvalue="Application.ReverseStringIi (2)" />
+      <item itemvalue="Application.LongestPalindrome" />
+      <item itemvalue="Application.LongestPalindrome (1)" />
       <item itemvalue="Application.ReverseStringIi (1)" />
-      <item itemvalue="Application.ReverseStringIi (3)" />
       <item itemvalue="Application.ReverseStringIi (4)" />
       <item itemvalue="Application.ReverseStringIi (5)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LongestPalindrome (1)" />
+        <item itemvalue="Application.LongestPalindrome" />
         <item itemvalue="Application.ReverseStringIi (1)" />
         <item itemvalue="Application.ReverseStringIi (5)" />
         <item itemvalue="Application.ReverseStringIi (4)" />
-        <item itemvalue="Application.ReverseStringIi (3)" />
-        <item itemvalue="Application.ReverseStringIi (2)" />
       </list>
     </recent_temporary>
   </component>
@@ -434,7 +437,12 @@
       <workItem from="1689330255234" duration="77000" />
       <workItem from="1689330340040" duration="891000" />
       <workItem from="1689557306180" duration="66000" />
-      <workItem from="1689771228908" duration="1873000" />
+      <workItem from="1689771228908" duration="2491000" />
+      <workItem from="1689855078367" duration="1206000" />
+      <workItem from="1690200007461" duration="4701000" />
+      <workItem from="1690285897442" duration="2228000" />
+      <workItem from="1690365073334" duration="1576000" />
+      <workItem from="1690524240690" duration="2450000" />
     </task>
     <task id="LOCAL-00001" summary="反转链表">
       <option name="closed" value="true" />
@@ -492,7 +500,55 @@
       <option name="project" value="LOCAL" />
       <updated>1689331223492</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="日常提交">
+      <option name="closed" value="true" />
+      <created>1689774399469</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1689774399469</updated>
+    </task>
+    <task id="LOCAL-00009" summary="逆波兰表达式">
+      <option name="closed" value="true" />
+      <created>1690200682527</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1690200682527</updated>
+    </task>
+    <task id="LOCAL-00010" summary="优先队列 滑动窗口最大值">
+      <option name="closed" value="true" />
+      <created>1690202959100</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1690202959100</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Deque实现大根堆">
+      <option name="closed" value="true" />
+      <created>1690204142224</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1690204142224</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Deque实现 层序遍历和打印">
+      <option name="closed" value="true" />
+      <created>1690292130499</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1690292130499</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Deque实现 层序遍历和打印">
+      <option name="closed" value="true" />
+      <created>1690292158754</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1690292158754</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -511,13 +567,17 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="反转链表" />
-    <MESSAGE value="日常提交" />
     <MESSAGE value="三数相加 重要双指针" />
     <MESSAGE value="线程池测试  包路径修改" />
     <MESSAGE value="更新readme" />
     <MESSAGE value="四数相加  反转字符串" />
     <MESSAGE value="分割字符串 可能多个空格" />
-    <option name="LAST_COMMIT_MESSAGE" value="分割字符串 可能多个空格" />
+    <MESSAGE value="日常提交" />
+    <MESSAGE value="逆波兰表达式" />
+    <MESSAGE value="优先队列 滑动窗口最大值" />
+    <MESSAGE value="Deque实现大根堆" />
+    <MESSAGE value="Deque实现 层序遍历和打印" />
+    <option name="LAST_COMMIT_MESSAGE" value="Deque实现 层序遍历和打印" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1251,6 +1311,16 @@
           <url>file://$PROJECT_DIR$/src/leetcode/editor/cn/ReverseStringIi.java</url>
           <line>53</line>
           <option name="timeStamp" value="261" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/leetcode/editor/cn/LongestPalindrome.java</url>
+          <line>57</line>
+          <option name="timeStamp" value="262" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/leetcode/editor/cn/LongestPalindrome.java</url>
+          <line>59</line>
+          <option name="timeStamp" value="263" />
         </line-breakpoint>
         <breakpoint enabled="true" type="java-exception">
           <properties class="java.util.ConcurrentModificationException" package="java.util" />
