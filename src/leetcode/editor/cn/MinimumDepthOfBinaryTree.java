@@ -33,6 +33,9 @@ package leetcode.editor.cn;
 // Related Topics 树 深度优先搜索 广度优先搜索 二叉树 👍 678 👎 0
 
 import javax.swing.tree.TreeNode;
+import java.util.ArrayDeque;
+import java.util.Deque;
+import java.util.Queue;
 
 public class MinimumDepthOfBinaryTree{
     public static void main(String[] args) {
@@ -56,10 +59,40 @@ public class MinimumDepthOfBinaryTree{
  *     }
  * }
  */
+public class TreeNode {
+      int val;
+      TreeNode left;
+      TreeNode right;
+      TreeNode() {}
+      TreeNode(int val) { this.val = val; }
+      TreeNode(int val, TreeNode left, TreeNode right) {
+          this.val = val;
+          this.left = left;
+          this.right = right;
+      }
+  }
+
 class Solution {
     public int minDepth(TreeNode root) {
-        return 0;
+        Deque<TreeNode> deque=new ArrayDeque<>();
+        if(root==null) return 0;
+        deque.offer(root);
+        int depth=0;
+        while(!deque.isEmpty()){
+            int size=deque.size();
+            depth++;
+            for(int i=0;i<size;i++){
+                TreeNode pop = deque.pop();
+                if(pop.left==null&&pop.right==null){
+                    return depth;
+                }
+                if(pop.left!=null) deque.add(pop.left);
+                if(pop.right!=null) deque.add(pop.right);
+            }
+        }
+        return depth;
     }
+
 }
 //leetcode submit region end(Prohibit modification and deletion)
 
