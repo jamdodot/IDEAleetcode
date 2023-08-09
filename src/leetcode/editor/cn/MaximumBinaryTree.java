@@ -54,7 +54,7 @@ import java.util.Map;
 public class MaximumBinaryTree{
     public static void main(String[] args) {
         Solution solution = new MaximumBinaryTree().new Solution();
-        
+        solution.constructMaximumBinaryTree(new int[]{3,2,1,6,0,5});
     }
 
 //leetcode submit region begin(Prohibit modification and deletion)
@@ -88,7 +88,7 @@ public class TreeNode {
 class Solution {
     Map<Integer, Integer> map=new HashMap<>();
     public TreeNode constructMaximumBinaryTree(int[] nums) {
-        TreeNode root = traverse(nums, 0, nums.length);
+        TreeNode root = traverse(nums, 0, nums.length-1);
         return root;
     }
 //        int max=Integer.MIN_VALUE;
@@ -127,21 +127,21 @@ class Solution {
 //        return treeNode;
 //    }
 public TreeNode traverse(int [] nums,int left, int right){
-        if(right-left<1) return null;
-        if(right-left==1){
+        if(right-left<0) return null;
+        if(right-left==0){
             return new TreeNode(nums[left]);
         }
 
         int maxIndex=left;
         int maxvalue=Integer.MIN_VALUE;
-        for(int i=left;i<right;i++){
+        for(int i=left;i<=right;i++){
             if(nums[i]>maxvalue){
                 maxvalue=nums[i];
                 maxIndex=i;
             }
         }
         TreeNode root = new TreeNode(maxvalue);
-        root.left=traverse(nums, left,maxIndex);
+        root.left=traverse(nums, left,maxIndex-1);
         root.right=traverse(nums,maxIndex+1,right);
         return root;
 }
