@@ -88,8 +88,16 @@ class Solution {
                 break;
             }
         }
-        root.left=traverse(inorder, postorder, inLeft, mid-1, posLeft,mid-1+posLeft-inLeft);
-        root.right=traverse(inorder, postorder,mid+1, inRight,posLeft+mid-inLeft ,posRight-1);
+        //中序数组大小一定是和后序数组的大小相同的
+        /**
+         * 3 假设il,ir对应子树中序遍历区间的左右端点， pl,pr对应子树后序遍历区间的左右端点。那么左子树的中序遍历的区间为 [il, k - 1]，右子树的中序遍历的区间为[k + 1, ir];
+         *
+         * 4 由步骤3可知左子树中序遍历的长度为k - 1 - il + 1，由于一棵树的中序遍历和后序遍历的长度相等，因此后序遍历的长度也为k - 1 - il + 1。这样，根据后序遍历的长度，我们可以推导出左子树后序遍历的区间为[pl, pl + k - 1 -
+         * il]，右子树的后序遍历的区间为[pl + k - 1 - il + 1, pr - 1];
+         *
+         */
+        root.left=traverse(inorder, postorder, inLeft, mid-1, posLeft,mid-1-inLeft+1+posLeft-1);
+        root.right=traverse(inorder, postorder,mid+1, inRight,posLeft+mid-1-inLeft+1 ,posRight-1);
         return root;
     }
 }
