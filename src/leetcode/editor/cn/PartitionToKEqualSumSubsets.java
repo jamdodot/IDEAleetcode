@@ -34,6 +34,7 @@ public class PartitionToKEqualSumSubsets{
 class Solution {
     public boolean canPartitionKSubsets(int[] nums, int k) {
         if (k > nums.length) return false;
+        Arrays.stream(nums).boxed().sorted(Comparator.reverseOrder()).mapToInt(Integer::intValue).toArray();
         int sum = 0;
         for (int v : nums) sum += v;
         if(sum%k!=0) return false;
