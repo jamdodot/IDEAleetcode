@@ -91,6 +91,24 @@ class Solution {
             root.right=deleteNode(root.right,key);
         }
         if(root.val==key){
+//            if(root.left==null&&root.right==null){
+//                return null;
+//            }
+//            if(root.left==null){
+//                return root.right;
+//            }
+//            if(root.right==null){
+//                return root.left;
+//            }
+//            TreeNode successor=root.right;
+//            while(successor.left!=null){
+//                successor=successor.left;
+//            }
+//            root.right=deleteNode(root.right,successor.val);//successor 就是右子树的最小点
+//            // 把他从原来的地方删除  再放到原来的key位置  并且保持二叉搜索树的结构
+//            successor.right=root.right;
+//            successor.left=root.left;
+//            return successor; //返回代替原来key的位置节点
             if(root.left==null&&root.right==null){
                 return null;
             }
@@ -104,11 +122,10 @@ class Solution {
             while(successor.left!=null){
                 successor=successor.left;
             }
-            root.right=deleteNode(root.right,successor.val);//successor 就是右子树的最小点
-            // 把他从原来的地方删除  再放到原来的key位置  并且保持二叉搜索树的结构
-            successor.right=root.right;
+            TreeNode treeNode = deleteNode(root.right, successor.val);
+            successor.right=treeNode;
             successor.left=root.left;
-            return successor; //返回代替原来key的位置节点
+            return successor;
         }
         return root;
     }
