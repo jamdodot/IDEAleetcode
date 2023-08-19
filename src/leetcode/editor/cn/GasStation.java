@@ -63,18 +63,29 @@ class Solution {
             sum1+=gas[i];
             sum2+=cost[i];
         }
-        if(sum1<sum2)return -1;
+//        if(sum1<sum2)return -1;
+//        int start=0;
+//        int temp=0;
+//        for(int i=0;i<n;i++){
+//            temp+=gas[i]-cost[i];
+//            if(temp<0){
+//                temp=0;
+////                如果start到i出现负数说明这个区间内的点都不能选
+//                start=i+1;
+//            }
+//        }
+////        可以直接返回start 其值不可能为n
+//        return start==n?0:start;
+        if(sum1<sum2) return -1;
         int start=0;
         int temp=0;
         for(int i=0;i<n;i++){
             temp+=gas[i]-cost[i];
             if(temp<0){
                 temp=0;
-//                如果start到i出现负数说明这个区间内的点都不能选
                 start=i+1;
             }
         }
-//        可以直接返回start 其值不可能为n
         return start==n?0:start;
     }
 }
