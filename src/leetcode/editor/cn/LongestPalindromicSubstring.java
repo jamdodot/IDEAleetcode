@@ -47,22 +47,16 @@ class Solution {
         for(int i=s.length()-1;i>=0;i--){
             for(int j=i;j<=s.length()-1;j++){
                 if(s.charAt(i)==s.charAt(j)){
-                    if(j-i<=1){
-                        dp[i][j]=true;
-                        if(j-i+1>=max){
-                            max=Math.max(max,j-i+1);
-                            res[0]=i;
-                            res[1]=j;
-                        }
-                    }else if(dp[i+1][j-1]){
-
-                        dp[i][j]=true;
-                        if(j-i+1>=max){
-                            max=Math.max(max,j-i+1);
-                            res[0]=i;
-                            res[1]=j;
-                        }
-                    }
+                  if(j - i <= 1){
+                      dp[i][j] = true;
+                  } else {
+                      dp[i][j] = dp[i+1][j-1];
+                  }
+                }
+                if(dp[i][j]&&j-i+1>max){
+                    max = j-i+1;
+                    res[0]=i;
+                    res[1]=j;
                 }
             }
         }
