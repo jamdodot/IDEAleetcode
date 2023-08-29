@@ -8,12 +8,12 @@ package com.wut.learn.base;
  * @Description:
  */
 public class Singleton {
-    private static Singleton instance ;
+    private static volatile Singleton instance ;
     private  Singleton(){
         System.out.println("Singleton is create");
         slowdown();
     }
-    public static synchronized Singleton getInstance(){
+    public static  Singleton getInstance(){
         if(instance==null){
             synchronized (Singleton.class){
                 instance = new Singleton();
