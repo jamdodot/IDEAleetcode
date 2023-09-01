@@ -111,46 +111,7 @@ public class ChestTable {
      * ..*
      * ...
      */
-//        backtrace(new int[]{0,0},matrix);
-//        System.out.println(flag);
-//
-//    }
-//    public static void backtrace(int[] position,String [][] matrix){
-//        if(position[0]>=matrix.length||position[1]>=matrix[0].length){
-//            return;
-//        }
-//        if(position[0]==matrix.length-1&&position[1]==matrix[0].length-1){
-//            flag=true;
-//            return;
-//        }
-//        if(isValid(matrix,new int[]{position[0]+1,position[1]})){
-//            position[0]++;
-//            backtrace(position,matrix);
-//            position[0]--;
-//        }
-//        if (isValid(matrix,new int[]{position[0],position[1]+1})){
-//            position[1]++;
-//            backtrace(position,matrix);
-//            position[1]--;
-//        }
-//        if (isValid(matrix,new int[]{position[0]+1,position[1]+1})){
-//            position[0]++;
-//            position[1]++;
-//            backtrace(position,matrix);
-//            position[0]--;
-//            position[1]--;
-//        }
-//
-//    }
-//      static  boolean isValid(String[][] matrix,int[] position){
-//        if(position[0]<0||position[0]>=matrix.length||position[1]<0||position[1]>=matrix[0].length){
-//            return false;
-//        }
-//        if(matrix[position[0]][position[1]]=="*"){
-//            return false;
-//        }
-//        return true;
-//    }
+
 
 
 

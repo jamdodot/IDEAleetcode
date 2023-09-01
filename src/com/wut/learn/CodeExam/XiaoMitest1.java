@@ -1,5 +1,8 @@
 package com.wut.learn.CodeExam;
 
+import java.util.ArrayList;
+import java.util.List;
+
 /**
  * Created with IntelliJ IDEA.
  *
@@ -8,24 +11,43 @@ package com.wut.learn.CodeExam;
  * @Description:
  */
 
-/**
- * 给定一个非空字符串s和一个包含非空单词的列表
- * wordDict,判定s是否可以被空格拆分为一个或多个在字
- * 典中出现的单词。
- *
- * 示例1:
- * 输入: s ="welcometocgb", wordDict =
- * ["welcome", "to" ，"cgb"]
- * 输出: true
- * 解释:返回true因为"welcometocgb"可以被拆分
- * 成"welcome to cgb" 。
- */
+
 public class XiaoMitest1 {
+    static List<List<Integer>> res=new ArrayList<>();
     public static void main(String[] args) {
-        // 输出为true或者false
+        /**
+         * 获取所有子数组
+         */
+        int[] arr = {1, 2, 3};
+        List<Integer> aList=new ArrayList<Integer>();
+        List<Integer> bList=new ArrayList<Integer>();
+        List<Integer> input =new ArrayList<>();
+        for(int c: arr){
+            aList.add(c);
+        }
 
-
+        getSonSet1(0,aList,bList);
 
 
     }
+    public static void getSonSet1(int i,List<Integer> aList,List<Integer> bList){
+        if(i>aList.size()-1){
+            if(bList.isEmpty()){
+                System.out.print("@");
+            }else {
+                System.out.print(bList.get(0));
+                for(int m=1;m<bList.size();m++){
+                    System.out.print(","+bList.get(m));
+                }
+            }
+            System.out.println();
+        }else {
+            bList.add(aList.get(i));
+            getSonSet1(i+1, aList, bList);
+            int bLen=bList.size();
+            bList.remove(bLen-1);
+            getSonSet1(i+1, aList, bList);
+        }
+    }
+
 }
