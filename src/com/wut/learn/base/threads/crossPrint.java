@@ -16,18 +16,21 @@ public class crossPrint {
     private int num;
 
     public static void main(String[]args){
-        crossPrint crossPrint = new crossPrint();
-        new Thread(()->{
-            crossPrint.printABC(0);},
-                "A").start();
-        new Thread(()->{
-            crossPrint.printABC(1);},
-        "B").start();
-        new Thread(()->{
-            crossPrint.printABC(2);},
-        "C").start();
-
-
+    crossPrint crossPrint = new crossPrint();
+    new Thread(new Runnable() {
+        @Override
+        public void run() {
+            crossPrint.printABC(0);
+        }
+    }, "A").start();
+    //创建一个实现了Runnable接口的匿名内部类，重写run方法，
+    // 在run方法中调用crossPrint的printABC方法
+    new Thread(()->{
+        crossPrint.printABC(1);},
+            "B").start();
+    new Thread(()->{
+        crossPrint.printABC(2);},
+            "C").start();
     }
     private void printABC(int targetNum){
         for(int i=0;i<10;i++){
@@ -42,7 +45,7 @@ public class crossPrint {
                 num++;
                 System.out.println(Thread.currentThread().getName());
                 lock.notifyAll();
-                }
             }
         }
+    }
 }
