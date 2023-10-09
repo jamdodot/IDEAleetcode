@@ -12,6 +12,7 @@ import java.util.Scanner;
  * @Description:
  */
 public class test4 {
+        
     public static  void main(String[]args){
         Scanner in=new Scanner(System.in);
         String s=in.next();
@@ -30,5 +31,6 @@ public class test4 {
            counts_1.put(diffent,counts_1.getOrDefault(diffent,0)+1);
         }
         return res;
+
     }
 }
