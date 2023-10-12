@@ -1,84 +1,67 @@
 package com.wut.learn.CodeExam;
 
+import java.util.ArrayDeque;
+import java.util.Deque;
 import java.util.Scanner;
+import java.util.Stack;
 
 public class Main {
-    static int res=0;
-    static int  min=Integer.MAX_VALUE;
-    public static void main(String[] args) {
-        Scanner sc=new Scanner(System.in);
+    public static String decompressString(String input) {
+        Deque<String> deque=new ArrayDeque<>();
+        StringBuilder res=new StringBuilder();
+        int n=input.length();
+        for(int i=0;i<n;i++){
+           char c=input.charAt(i);
+           if(c=='('||c==')'){
+               deque.offer(c+"");
+           }
+           if(Character.isLetter(c)){
+               deque.offer(c+"");
+           }
+           if(c=='>'){
+               continue;
+           }
+           if(c=='<') {
+               continue;
+           }
+           if(Character.isDigit(c)){
+               int count = 0;
+               while (Character.isDigit(input.charAt(i))) {
+                   count = count * 10 + (input.charAt(i) - '0');
+                   i++;
+               }
+               StringBuilder sb =new StringBuilder();
+               StringBuilder sb2 =new StringBuilder();
+               while(!deque.isEmpty()){
+                   String temp=deque.pollLast();
+                   if(temp.equals("(")){
+                       break;
+                   }
+                   if(!temp.equals(")")){
+                       sb.append(temp);
+                   }
+               }
+               sb.reverse();
+               for(int j=0;j<count;j++){
+                  sb2.append(sb);
+               }
+               deque.offer(sb2.toString());
+           }
 
-        int num=sc.nextInt();
-        TreeNode[] treeNodes=new TreeNode[num];
-        for(int i=0;i<num;i++){
-            treeNodes[i]=new TreeNode(i+1);
         }
-        int n=num-1;
-        while(n>0){
-            int son=sc.nextInt();
-            int father=sc.nextInt();
-            if(treeNodes[father-1].left==null){
-                treeNodes[father-1].left=treeNodes[son-1];
+        while(!deque.isEmpty()){
+            if(!deque.peekFirst().equals("(")&&!deque.peekFirst().equals(")")){
+                res.append(deque.pollFirst());
             }else{
-                treeNodes[father-1].right=treeNodes[son-1];
+                deque.pollFirst();
             }
-            n--;
         }
-
-        traverse_min(treeNodes[0],num);
-        traverse(treeNodes[0],num);
-        System.out.println(min+" "+res);
-    }
-    public static void traverse(TreeNode root,int node_num){
-        if(root==null){
-            return;
-        }
-        if(root.left==null&&root.right==null){
-            return;
-        }
-        int left=dfs(root.left);
-        int right=node_num-left;
-        if(Math.abs(left-right)==min){
-            res++;
-        }
-        int right_2=dfs(root.right);
-        int left_2=node_num-right_2;
-        if(Math.abs(left_2-right_2)==min){
-            res++;
-        }
-        traverse(root.left,node_num);
-        traverse(root.right,node_num);
-
+        return res.toString();
     }
 
-    public static void traverse_min(TreeNode root,int node_num){
-        if(root==null){
-            return;
-        }
-        if(root.left==null||root.right==null){
-            return;
-        }
-        int left=dfs(root.left);
-        int right=node_num-left;
-        min=Math.min(min,Math.abs(left-right));
-        traverse_min(root.left,node_num);
-        traverse_min(root.right,node_num);
-
-    }
-    public static int dfs(TreeNode root){
-        if(root==null){
-            return 0;
-        }
-        int left=dfs(root.left);
-        int right=dfs(root.right);
-        int sum=left+right+1;
-        return sum;
-    }
-
-    public static class TreeNode {
-        int val;
-        TreeNode left;
-        TreeNode right;
-        TreeNode(int x) { val = x; }
+    public static void main(String[] args) {
+        String input = "(a(bd(c)<2>))";
+        String decompressedString = decompressString(input);
+        System.out.println(decompressedString);
     }
 }
